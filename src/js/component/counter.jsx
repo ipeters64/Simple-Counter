@@ -8,9 +8,9 @@ import { faClock } from "@fortawesome/free-solid-svg-icons";
 import rigoImage from "../../img/rigo-baby.jpg";
 
 
-
+// defining the counter //
 const SecondsCounter = () => {
-
+// setting the useState function paramters //
 	const [units, setUnits] = useState(0);
 	const [tens, setTens] = useState(0);
 	const [hundreds, setHundreds] = useState(0)
